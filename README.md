@@ -19,11 +19,7 @@ ytplay get lucky
 ## Install
 
 On a fresh PC, install the external tools once, then install ytplay.
-### Necessary
 
-```Tools
-winget install git.git
-```
 ### Windows (winget)
 
 ```powershell
