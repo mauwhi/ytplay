@@ -27,7 +27,7 @@ winget install Python.Python.3.12 fzf mpv Gyan.FFmpeg
 python -m pip install --user pipx
 python -m pipx ensurepath
 # open a NEW terminal, then:
-pipx install git+https://github.com/YOUR_USERNAME/ytplay
+pipx install git+https://github.com/mauwhi/ytplay
 ```
 
 ### macOS (Homebrew)
@@ -35,7 +35,7 @@ pipx install git+https://github.com/YOUR_USERNAME/ytplay
 ```bash
 brew install python pipx fzf mpv ffmpeg
 pipx ensurepath
-pipx install git+https://github.com/YOUR_USERNAME/ytplay
+pipx install git+https://github.com/mauwhi/ytplay
 ```
 
 ### Linux
@@ -43,7 +43,7 @@ pipx install git+https://github.com/YOUR_USERNAME/ytplay
 Install `fzf`, `mpv`, `ffmpeg`, and `pipx` from your package manager, then:
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/ytplay
+pipx install git+https://github.com/mauwhi/ytplay
 ```
 
 ## Usage
