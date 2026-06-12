@@ -21,7 +21,9 @@ ytplay get lucky
 On a fresh PC, install the external tools once, then install ytplay.
 
 ### Windows (winget)
-
+```powershell
+winget install git.git
+```
 ```powershell
 winget install Python.Python.3.12 fzf mpv.net Gyan.FFmpeg yt-dlp.yt-dlp
 python -m pip install --user pipx
