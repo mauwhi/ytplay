@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytplay"
+version = "0.1.0"
+description = "Search YouTube in the terminal, pick with fzf, then play with mpv or download with yt-dlp."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = ["yt-dlp"]
+
+[project.scripts]
+ytplay = "ytplay:main"
+
+[tool.setuptools]
+py-modules = ["ytplay"]
